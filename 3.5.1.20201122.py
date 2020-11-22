@@ -33,5 +33,5 @@ print(f'\n{g}')
 
 h = pd.DataFrame([[1, 2], [3, 4], [5, 6]], columns=['date', 'score'], index=['A', 'B', 'C'])
 h.index.name = '公司'
-h = h.rename(index={'A': '万科', 'B':'阿里', 'C':'百度'}, columns={'date': '日期', 'score': '分数'})
+h = h.rename(index={'A': '万科', 'B': '阿里', 'C': '百度'}, columns={'date': '日期', 'score': '分数'})
 print(f'\n{h}')
